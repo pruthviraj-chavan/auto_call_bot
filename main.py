@@ -91,9 +91,9 @@ def generate_speech_openai(text: str) -> str:
 
 # Configuration
 class Config:
-    OPENAI_API_KEY = "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"
-    TWILIO_ACCOUNT_SID = "ACc09603c1a4ad8619d02d7944e2e0c30c"
-    TWILIO_AUTH_TOKEN = "adfe0d7f030bb8c03f61605332a0ea97"
+    OPENAI_API_KEY = ""
+    TWILIO_ACCOUNT_SID = ""
+    TWILIO_AUTH_TOKEN = ""
     TWILIO_PHONE_NUMBER = "+12315154841"
     ADMIN_PHONE = "+919404895667"  # Replace with admin's actual phone number
     WEBHOOK_BASE_URL = get_ngrok_url() or os.getenv('NGROK_URL', 'https://0e62-103-56-43-130.ngrok-free.app')
